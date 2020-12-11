@@ -6,12 +6,11 @@
   "devDependencies": {
     "budo": "^11.6.4",
     "concurrently": "^5.3.0",
-    "ecstatic": "^4.1.4",
     "node-sass": "^5.0.0"
   },
   "scripts": {
     "start": "npm run build && concurrently --kill-others \"npm run watch-css\" \"budo --dir public/ --live\"",
-    "build": "cp -r src/index.html public && mkdir -p public/img && cp src/img/* public/img && npm run build-css",
+    "build": "mkdir -p public && cp -r src/index.html public && mkdir -p public/img && cp src/img/* public/img && npm run build-css",
     "build-css": "node-sass src/style.scss public/style.css",
     "watch-css": "node-sass -w src/style.scss -o public",
     "test": "echo \"Error: no test specified\" && exit 1"
