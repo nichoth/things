@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "name": "things",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/things.git"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/things/issues"
+  },
+  "homepage": "https://github.com/nichoth/things#readme",
+  "description": ""
+}
