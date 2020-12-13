@@ -65,9 +65,6 @@ As seen here: https://ironfish.network/
 
 ----------------------------------------
 
-* https://www.wonderlandams.com/career/developer
-
-----------------------------------------
 
 ### to read
 * https://whitepaper.fission.codes/identity/id-overview
